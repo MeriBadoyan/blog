@@ -1,0 +1,66 @@
+/* ccd5ae */
+/* e9edc9 */
+/* fefae0 */
+/* faedcd */
+/* d4a373 */
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Sono', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fefae0;
+    color: #462e16;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #462e16;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8vw ;
+    background-color: #fcf2dc;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px 1.5vw;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+.menu li:hover a{
+    color: #9bad60;
+    border-bottom: 1px solid #596433;
+}
+
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    color: #0a0703;
+}
+.logo:hover a{
+    color: #9bad60;
+
+}
+
+h1{
+    color: #191008;
+}
+
