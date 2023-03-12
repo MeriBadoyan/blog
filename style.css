@@ -118,7 +118,6 @@ h1 {
 
 .postSection{
     margin: 35px 0;
-
 }
 
 h2{
@@ -127,15 +126,32 @@ h2{
     font-size: 30px;
 }
 .law>h2{
-    color:  #143B5B
-    ;
-
+    color:  #143B5B;
 }
+.law>p{
+    color: #2d6093;
+}
+
+.programming>h2{
+    color:#854c1d;
+}
+
+.programming>p{
+    color:#c4702b;
+}
+
+.books>h2 {
+    color: #af262e;
+}
+
+.books>p {
+    color: #d84a52;
+}
+
 .postSection>p{
     text-align: center;
     padding: 10px 0 25px 0;
     font-size: 16px;
-    color: #2d6093;
 }
 
 .postContainer{
@@ -162,15 +178,45 @@ h4{
     padding-bottom: 8px;
 }
 
+.programming h4{
+    color: #392612;
+}
+.programming .postDescription{
+    color: #392612;
+    padding-bottom: 8px;
+}
+.books h4{
+    color: #4c1918;
+}
+.books .postDescription{
+    color: #4c1918;
+    padding-bottom: 8px;
+}
 
-.time{
+.law .time{
     color: #aeb9d5;
+    padding-bottom: 5px;
+}
+.programming .time{
+    color: #dc985f;
+    padding-bottom: 5px;
+}
+.books .time{
+    color: #e6898e;
     padding-bottom: 5px;
 }
 
 .readMore{
     color: #334164;
     margin-top: 5px;
+}
+
+.colorRed{
+    color:#4c1918
+}
+
+.colorBrown{
+    color: #462e16;
 }
 
 .readMore:hover{
