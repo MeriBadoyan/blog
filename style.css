@@ -191,3 +191,121 @@ footer {
     padding: 13px 0;
     background-color: #fcf2dc;
 }
+
+/* about */
+.aboutContainer{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutContainer p{
+    text-align: left;
+    width: 65%;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9bad60;
+    margin-top: 50px;
+}
+
+/* contact */
+
+.contactContainer{
+    display: flex;
+    width: 68% ;
+    margin: 0 auto;
+    margin-top: 8vh;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #fff5ee;
+}
+
+.contactContainer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3vw;
+
+}
+
+.contactContainer>img {
+    height: 70vh
+}
+
+.contactContainer h2{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 54px;
+    padding-bottom: 28px;
+    text-transform: capitalize;
+}
+
+.contactDiv{
+    border-top: 3px #462e16 solid;
+    border-left: 3px #462e16 solid;
+    padding: 3vw 0 0 3vw;
+    display: flex;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDiv input{
+    margin-bottom: 15px;
+    margin-right: 2vw;
+    padding: 0.8vw 3.5vw;
+    padding-left: 0;
+    font-size: 16px;
+    color: #191008;
+    border: none;
+    border-bottom: 1px #191008 solid;
+    background-color: #fff5ee;
+    outline: none;
+}
+
+.send{
+    font-size: 16px;
+    padding: 10px 35px;
+    border: 1px #462e16 solid;
+    background-color: #462e16;
+    border-radius: 25px;
+    width: max-content;
+    color: #fcf2dc;
+    transition: 0.3s;
+    margin: 26px 0 40px 0;
+}
+
+.send:hover{
+    background-color: #fcf2dc;
+    color: #462e16;
+    cursor: pointer;
+}
+
+.contactInfo{
+    padding: 0 2vw 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+}
+
+.contactInfo h5 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.contactInfo a {
+    font-size: 18px;
+ }
+
+.contactInfo a:hover {
+    color: #d4a373;
+}
+
+.socialLinks{
+    padding: 11px 15px;
+}
